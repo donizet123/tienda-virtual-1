@@ -28,12 +28,14 @@ function getListaProductos() {
     http.send(JSON.stringify(listaCarrito));
     http.onreadystatechange = function(){
         if (this.readyState == 4 && this.status ==200) {
+            console.log(this.responseText); // Ver qué está recibiendo
+
             const res =JSON.parse(this.responseText);
             let html ='';
             res.productos.forEach(producto => {
                 html+= `<tr>
                 <td>
-                <img class="img-thumbnail rounded-circle" src="${producto.imagen}" alt="" width="100">
+                <img class="img-thumbnail " src="${producto.imagen}" alt="" width="100">
                 </td>
                 <td>${producto.nombre}</td>
                 <td>

@@ -6,11 +6,13 @@ class PrincipalModel extends Query{
         parent::__construct();
     }
 
-   // public function getCategorias()
-   // {
-   //     $sql ="SELECT * FROM  categorias";
-   //     return $this->selectall($sql);
-   // }
+    //funcion  para facilitar la busqueda de productos
+
+    public function getallCategorias()
+    {
+        $sql ="SELECT * FROM  categorias";
+        return $this->selectall($sql);
+    }
 
     public function getProducto($id_producto)
     {
@@ -63,11 +65,14 @@ class PrincipalModel extends Query{
         $sql ="SELECT * FROM productos WHERE nombre LIKE '%".$valor."%' OR descripcion LIKE '%".$valor."%' LIMIT 6";
         return $this->selectAll($sql);
     }
-//funciona para la los nombres de los productos
-  //  public function getNombreCategoria($id_categoria) {
-     //   $sql = "SELECT categoria FROM categorias WHERE id = $id_categoria"; // Aquí usas la concatenación
-      //  return $this->select($sql); // Asumiendo que `select` devuelve un solo resultado
-   // }
+
+
+
+//funciona para la los nombres de los productos :c tmr no saleeeeeeeee
+    public function getNombreCategoria($id_categoria) {
+        $sql = "SELECT categoria FROM categorias WHERE id = $id_categoria"; // Aquí usas la concatenación
+        return $this->select($sql); // Asumiendo que `select` devuelve un solo resultado
+    }
     
 }
  

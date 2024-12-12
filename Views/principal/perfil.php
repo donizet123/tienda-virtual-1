@@ -53,7 +53,7 @@
                                 </ul>
                             </div>
                             <div class="card-body text-center">
-                                <img class="img-thumbnail rounded-circle" src="<?php echo BASE_URL . 'assets/img/brand_01.png'; ?>" alt="" width="150">
+                                <img class="img-thumbnail " src="<?php echo BASE_URL . 'assets/img/brand_01.png'; ?>" alt="" width="150">
                                 <hr>
                                 <p> <?php echo $_SESSION['nombreCliente']; ?></p>
                                 <p> <i class="fas fa-envelope"></i> <?php echo $_SESSION['correoCliente']; ?></p>
@@ -142,7 +142,8 @@
 
 <script src="<?php echo BASE_URL . 'assets/DataTables/datatables.min.js'; ?>"></script>
 
-    <script src="<?php echo BASE_URL . 'assets/js/es-ES.js'; ?>"></script>
+
+
     
     <script src="<?php echo BASE_URL . 'assets/js/clientes.js'; ?>"></script>
 

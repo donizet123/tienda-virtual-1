@@ -174,8 +174,8 @@
     const base_url = '<?php echo BASE_URL; ?>';
 </script>
 
-<script src=" <?php echo BASE_URL; ?>assets/js/carrito.js"></script>
-<script src=" <?php echo BASE_URL; ?>assets/js/login.js"></script>
-<script src=" <?php echo BASE_URL; ?>assets/js/es-ES.js"></script>
-
+<!-- Scripts personalizados -->
+<script src="<?php echo BASE_URL; ?>assets/js/es-ES.js"></script>
+<script src="<?php echo BASE_URL; ?>assets/js/carrito.js"></script>
+<script src="<?php echo BASE_URL; ?>assets/js/login.js"></script>
 <!-- End Script -->

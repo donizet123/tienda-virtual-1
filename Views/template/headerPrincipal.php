@@ -92,7 +92,7 @@
                         <a class="nav-link text-light" href="<?php echo BASE_URL . 'principal/about' ?>">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="<?php echo BASE_URL . 'principal/contact' ?>">Contactos</a>
+                        <a class="nav-link text-light" href="<?php echo BASE_URL . 'principal/contact' ?>">Contactanos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="<?php echo BASE_URL . 'principal/shop' ?>">Tienda</a>

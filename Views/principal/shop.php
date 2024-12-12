@@ -4,47 +4,40 @@
 
 <!-- Start Content -->
 <div class="container py-5">
-    <div class="row">
 
 
-        <?php /*
-<div class="col-12 col-md-3 p-5 mt-3">
+    <!-- modificado -->
     <div class="row">
-        <?php foreach ($data['categorias'] as $categoria) { ?>
-            <div class="col-12 mb-3"> <!-- Alineación por defecto a la izquierda -->
-                <h5>
-                    <a href="<?php echo BASE_URL . 'principal/categorias/' . $categoria['id']; ?>"
-                        style="text-decoration: none; color: black;">
-                        <?php echo htmlspecialchars($categoria['categoria']); ?>
-                    </a>
-                </h5>
+
+        <!-- modificado -->
+        <div class="col-12 col-md-3 p-5 mt-3">
+            <div class="row">
+                <?php foreach ($data['categorias'] as $categoria) { ?>
+                    <div class="col-12 mb-3"> <!-- Alineación por defecto a la izquierda -->
+                        <h5>
+                            <a href="<?php echo BASE_URL . 'principal/categorias/' . $categoria['id']; ?>"
+                                style="text-decoration: none; color: black;">
+                                <?php echo htmlspecialchars($categoria['categoria']); ?>
+                            </a>
+                        </h5>
+                    </div>
+                <?php } ?>
             </div>
-        <?php } ?>
-    </div>
-</div>
-*/ ?>
-
-
-
-
-
-
-
-
-
+        </div>
+        <!-- FIN modificado -->
 
         <div class="col-lg-9">
-            <!-- <div class="row">
+             <!-- modificado 2 -->
+            <div class="row">
                 <div class="col-md-6">
                     <ul class="list-inline shop-top-menu pb-3 pt-1">
                         <li class="list-inline-item">
-                            <a class="h3 text-dark text-decoration-none mr-3" href="#">Todos los productos Productos</a>
+                            <a class="h3 text-dark text-decoration-none mr-3" href="#">Todos los  Productos</a>
                         </li>
-
                     </ul>
                 </div>
-
-            </div>-->
+            </div>
+             <!-- FIN modificado -->
             <div class="row">
                 <?php foreach ($data['productos'] as $producto) { ?>
 

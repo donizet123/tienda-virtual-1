@@ -30,7 +30,12 @@ class Principal extends Controller
         $data['pagina'] = $pagina;
         $total =$this->model -> getTotalProductos();
         $data['total'] = ceil($total['total'] / $porPagina);
-        //$data['categorias'] = $this->model->getCategorias();
+
+        //agregado
+        $data['categorias'] = $this->model->getallCategorias();
+
+
+
         $this->views->getView('principal', "shop", $data);
     }
     // vista detail
@@ -74,8 +79,12 @@ class Principal extends Controller
         $data['productos']= $this->model->getProductosCat($id_categoria, $desde,$porPagina);
         $data['title'] = 'Categorias';
         $data['id_categoria'] = $id_categoria;
-        //$data['categorias'] = $this->model->getCategorias();
-       // $data['nombre_categoria'] = $this->model->getNombreCategoria($id_categoria);
+
+           //agregado
+        $data['categorias'] = $this->model->getallCategorias();
+        $data['nombre_categoria'] = $this->model->getNombreCategoria($id_categoria);
+
+
         $this->views->getView('principal', "categorias", $data);
     }
  // vista contactos
