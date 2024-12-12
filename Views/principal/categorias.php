@@ -10,6 +10,8 @@
         <!-- agregado -->
 
         <div class="col-12 col-md-3 p-5 mt-3">
+        <h4><strong>Lista de Categorías</strong></h4> <!-- Texto en negrita usando <strong> -->
+
             <div class="row">
                 <?php foreach ($data['categorias'] as $categoria) { ?>
                     <div class="col-12 mb-3"> <!-- Alineación por defecto a la izquierda -->
@@ -53,17 +55,23 @@
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li>
-                                            <a class="btn btn-util text-white btnAddDeseo" href="#" prod="<?php echo $producto['id']; ?>"><i class="far fa-heart"></i></a>
+                                            <a class="btn text-white btnAddDeseo" href="#" prod="<?php echo $producto['id']; ?>" style="background-color: #2A4D69;">
+                                                <i class="far fa-heart"></i>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a class="btn btn-util text-white mt-2" href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>"><i class="far fa-eye"></i></a>
+                                            <a class="btn text-white mt-2" href="<?php echo BASE_URL . 'principal/detail/' . $producto['id']; ?>" style="background-color: #2A4D69;">
+                                                <i class="far fa-eye"></i>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a class="btn btn-util text-white mt-2 btnAddCarrito" href="#" prod="<?php echo $producto['id']; ?>"><i class="fas fa-cart-plus"></i>
+                                            <a class="btn text-white mt-2 btnAddCarrito" href="#" prod="<?php echo $producto['id']; ?>" style="background-color: #2A4D69;">
+                                                <i class="fas fa-cart-plus"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
+
                             </div>
 
 

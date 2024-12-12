@@ -9,8 +9,11 @@
     <!-- modificado -->
     <div class="row">
 
+
         <!-- modificado -->
         <div class="col-12 col-md-3 p-5 mt-3">
+        <h4><strong>Lista de Categorías</strong></h4> <!-- Texto en negrita usando <strong> -->
+
             <div class="row">
                 <?php foreach ($data['categorias'] as $categoria) { ?>
                     <div class="col-12 mb-3"> <!-- Alineación por defecto a la izquierda -->

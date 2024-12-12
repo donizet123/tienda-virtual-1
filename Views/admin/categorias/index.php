@@ -7,8 +7,26 @@
 <div id="layoutSidenav_content">
 
     <main>
+        <div class="d-flex justify-content-center mb-3 mt-3 ms-4">
+
+            <span class="font-weight-bold text-primary">
+               TABLA DE CATEGORIAS
+            </span>
+
+        </div>
+        <!-- Texto con botón incrustado -->
+        <div class="d-flex justify-content-start mb-3 mt-3 ms-4">
+
+            <span>
+                Agregar
+                <button class="btn btn-primary mb-3" type="button" id="nuevo_registro">nueva</button>
+                categoria
+            </span>
+        </div>
+
+
+
         <!-- Botón para abrir el modal -->
-        <button class="btn btn-primary mb-3" type="button" id="nuevo_registro">Nuevo</button>
 
         <!-- Tabla de usuarios -->
         <div class="card mt-3">

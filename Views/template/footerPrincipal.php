@@ -104,61 +104,56 @@
 
 <!-- Start Footer -->
 <footer class="bg-dark" id="tempaltemo_footer" style="background-color: #2a4d69; color: white;">
-<div class="container" ">
-
+    <div class="container">
         <div class="row">
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2  border-bottom pb-3 border-light logo">Pinturas y Accesorios R&R</h2>
-
+                <h2 class="h2 border-bottom pb-3 border-light logo">Pinturas y Accesorios R&R</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        123 Consectetur at ligula 10660
+                        Dirección: Mz. C Lt. 3 Virgen Guadalupe - Lurigancho Chosica y (Carapongo)
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
-                        <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
+                        <a class="text-decoration-none" href="#">989591378</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope fa-fw"></i>
-                        <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                        <a class="text-decoration-none" href="#">pinturasyacesriosRR@company.com</a>
                     </li>
                 </ul>
             </div>
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Categorías</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                    <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                    <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                    <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                    <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                    <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                    <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                    <li><a class="text-decoration-none" href="#">Pinturas para interiores</a></li>
+                    <li><a class="text-decoration-none" href="#">Pinturas para exteriores</a></li>
+                    <li><a class="text-decoration-none" href="#">Accesorios para pintura</a></li>
+                    <li><a class="text-decoration-none" href="#">Barnices y lacas</a></li>
+                    <li><a class="text-decoration-none" href="#">Selladores y primers</a></li>
+                    <li><a class="text-decoration-none" href="#">Equipos para pintura</a></li>
+                    <li><a class="text-decoration-none" href="#">Colores personalizados</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Información Adicional</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Home</a></li>
-                    <li><a class="text-decoration-none" href="#">About Us</a></li>
-                    <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                    <li><a class="text-decoration-none" href="#">Contact</a></li>
+                    <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                    <li><a class="text-decoration-none" href="#">Sobre Nosotros</a></li>
+                    <li><a class="text-decoration-none" href="#">Contactanos</a></li>
+                    <li><a class="text-decoration-none" href="#">Tienda</a></li>
+                    <li><a class="text-decoration-none" href="#">Carrito</a></li>
+                    <li><a class="text-decoration-none" href="#">perfil</a></li>
                 </ul>
             </div>
 
         </div>
-
-        
     </div>
-
-    
-
 </footer>
+
 <!-- End Footer -->
 
 <!-- Start Script -->
@@ -169,6 +164,9 @@
 <script src=" <?php echo BASE_URL; ?>assets/js/custom.js"></script>
 
 <script src=" <?php echo BASE_URL; ?>assets/js/sweetalert2.all.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
 
 <script>
     const base_url = '<?php echo BASE_URL; ?>';

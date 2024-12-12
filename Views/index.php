@@ -159,7 +159,6 @@
 <?php include_once 'Views/template/footerPrincipal.php'; ?>
 
 
-
 </body>
 
 </html>

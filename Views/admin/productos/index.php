@@ -6,6 +6,14 @@
 
     <main>
 
+        <div class="d-flex justify-content-center mb-3 mt-3 ms-4">
+
+            <span class="font-weight-bold text-primary">
+                TABLA DE PRODUCTOS
+            </span>
+
+        </div>
+
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#listaProducto" type="button" role="tab" aria-controls="listaProducto" aria-selected="true">lista de productos</button>
@@ -14,7 +22,7 @@
                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#nuevoProducto" type="button" role="tab" aria-controls="nuevoProducto" aria-selected="false">Nuevo</button>
             </li>
         </ul>
-        
+
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="listaProducto" role="tabpanel" aria-labelledby="home-tab">
                 <!-- Tabla de usuarios -->
@@ -48,7 +56,7 @@
                             <div class="row">
                                 <input type="hidden" id="id" name="id">
                                 <input type="hidden" id="imagen_actual" name="imagen_actual">
-                                
+
                                 <div class="col-md 3">
                                     <!-- Nombre -->
                                     <div class="form-group mb-3">
@@ -74,7 +82,7 @@
                                     <!-- categoria -->
                                     <div class="form-group mb-3">
                                         <label for="categoria">categoria</label>
-                                        <select id="categoria" class="form-control"  name="categoria" >
+                                        <select id="categoria" class="form-control" name="categoria">
                                             <option value="">Seleccionar</option>
                                             <?php foreach ($data['categorias'] as $categoria) { ?>
                                                 <option value="<?php echo $categoria['id'] ?>"> <?php echo $categoria['categoria'] ?> </option>

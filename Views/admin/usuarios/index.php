@@ -7,9 +7,23 @@
 <div id="layoutSidenav_content">
 
     <main>
-        <!-- Botón para abrir el modal -->
-        <button class="btn btn-primary mb-3" type="button" id="nuevo_registro">Nuevo</button>
 
+        <div class="d-flex justify-content-center mb-3 mt-3 ms-4">
+
+            <span class="font-weight-bold text-primary">
+                TABLA DE USUARIOS
+            </span>
+
+        </div>
+        <!-- Texto con botón incrustado -->
+        <div class="d-flex justify-content-start mb-3 mt-3 ms-4">
+
+            <span>
+                Agregar
+                <button class="btn btn-primary btn-sm" type="button" id="nuevo_registro">Nuevo</button>
+                usuario
+            </span>
+        </div>
         <!-- Tabla de usuarios -->
         <div class="card mt-3">
             <div class="card-body">
@@ -32,7 +46,7 @@
             </div>
         </div>
 
-       
+
 
         <!-- Modal para registro de usuarios -->
         <div id="nuevoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="titleModal" aria-hidden="true">
@@ -53,7 +67,7 @@
                             <!-- Apellido -->
                             <div class="form-group mb-3">
                                 <label for="apellido">Apellido</label>
-                                <input id="apellido" class="form-control" type="text" name="apellido" placeholder="Apellidos" >
+                                <input id="apellido" class="form-control" type="text" name="apellido" placeholder="Apellidos">
                             </div>
                             <!-- Correo -->
                             <div class="form-group mb-3">
@@ -63,12 +77,12 @@
                             <!-- Contraseña -->
                             <div class="form-group mb-3">
                                 <label for="clave">Contraseña</label>
-                                <input id="clave" class="form-control" type="password" name="clave" placeholder="Contraseña" >
+                                <input id="clave" class="form-control" type="password" name="clave" placeholder="Contraseña">
                             </div>
                         </div>
                         <div class="modal-footer">
                             <button class="btn btn-primary" type="submit" id="btnaccion">Registrar</button>
-                            <button class="btn btn-danger" type="button" data-bs-dismiss= "modal" >Cancelar</button>
+                            <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Cancelar</button>
                         </div>
                     </form>
                 </div>

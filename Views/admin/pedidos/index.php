@@ -8,6 +8,14 @@
 
     <main>
 
+        <div class="d-flex justify-content-center mb-3 mt-3 ms-4">
+
+            <span class="font-weight-bold text-primary">
+                TABLA DE PEDIDOS 
+            </span>
+
+        </div>
+
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#listaPedidos" type="button" role="tab" aria-controls="listaPedidos" aria-selected="true">lista de pedidos</button>

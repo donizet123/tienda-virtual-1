@@ -69,7 +69,7 @@
             <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                 <div class="sb-sidenav-menu">
                     <div class="nav">
-                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <div class="sb-sidenav-menu-heading">CRUD</div>
 
                         <a class="nav-link" href="<?php echo BASE_URL . 'admin/home'; ?>">
                             <div class="sb-nav-link-icon"><i class="bx bx-home-circle"></i></div>

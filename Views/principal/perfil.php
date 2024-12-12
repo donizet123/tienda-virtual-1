@@ -61,14 +61,13 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                izipay #1
+                                                culqui
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
 
-                                                <h7> aqui deberia ir el boton o el codigo de pago en este caso izipay</h7>
-                                                <button id="btnCheckout" class="btn btn-primary btn-lg">Pagar Ahora</button>
+                                                <a class="btn btn-primary" href="https://express.culqi.com/U4DP1JGQQM" role="button"> <img src="https://culqi.com/assets/images/brand/culqi-logo.png?v=1" alt="Culqi Logo" style="height: 20px; margin-right: 5px;"> Pagar con Culqi </a>
 
                                             </div>
                                         </div>
@@ -76,7 +75,7 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Otros #2
+                                                Paypal
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -87,6 +86,23 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                otros
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                                            <div class="accordion-body">
+
+                                                <a class="btn btn-primary" href="https://express.culqi.com/U4DP1JGQQM" role="button"> <img src="https://culqi.com/assets/images/brand/culqi-logo.png?v=1" alt="Culqi Logo" style="height: 20px; margin-right: 5px;"> Pagar con Culqi </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
@@ -144,8 +160,8 @@
 
 
 
-    
-    <script src="<?php echo BASE_URL . 'assets/js/clientes.js'; ?>"></script>
+
+<script src="<?php echo BASE_URL . 'assets/js/clientes.js'; ?>"></script>
 
 
 </body>
